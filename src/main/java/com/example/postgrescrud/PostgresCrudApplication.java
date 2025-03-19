@@ -1,13 +1,11 @@
-package com.example.crud_app;
+package com.example.postgrescrud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CrudAppApplication {
-
+public class PostgresCrudApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(CrudAppApplication.class, args);
+		SpringApplication.run(PostgresCrudApplication.class, args);
 	}
-
 }
